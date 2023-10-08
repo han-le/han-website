@@ -7,6 +7,7 @@ on:
 
 jobs:
   build-code:
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: Run NPM Generate
