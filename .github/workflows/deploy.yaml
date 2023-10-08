@@ -1,0 +1,13 @@
+name: Build and deploy the code
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-code:
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run NPM Generate
+        run: npm run generate
