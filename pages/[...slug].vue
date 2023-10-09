@@ -35,7 +35,7 @@ const dateFormatter = useDateFormatter()
 }
 
 .blog-page img {
-  margin: auto;
+  margin: 10px auto;
   border-radius: 4px;
 }
 
