@@ -10,7 +10,7 @@
             </div>
             <div class="group relative">
               <h3 class="mt-3 text-xl font-bold leading-6 text-gray-900 group-hover:text-amber-600">
-                <NuxtLink :to="post._path" class="font-monospace">
+                <NuxtLink :to="post._path" class="hello">
                   <span class="absolute inset-0" />
                   {{ post.title }}
                 </NuxtLink>

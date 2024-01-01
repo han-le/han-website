@@ -18,7 +18,7 @@
 <style>
 .hello {
   font-family: 'Rozha One', serif;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 .intro {

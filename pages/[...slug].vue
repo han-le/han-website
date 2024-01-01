@@ -4,7 +4,7 @@
     <ContentDoc v-slot="{ doc }">
     <div class="mx-auto max-w-3xl text-base leading-7 text-gray-700">
       <p class="text-sm leading-7 text-gray-400 font-sans">Posted on {{ dateFormatter.format(doc.date) }}</p>
-      <h1 class="mt-5 mb-10 text-3xl sm:text-5xl font-bold tracking-tight text-stone-700 post-title font-monospace">{{ doc.title }}</h1>
+      <h1 class="mt-5 mb-10 text-3xl sm:text-5xl font-bold tracking-tight text-stone-700 post-title hello">{{ doc.title }}</h1>
       <ContentRenderer :value="doc" class="prose post-body font-sans"/>
     </div>
     </ContentDoc>
